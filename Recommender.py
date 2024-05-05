@@ -72,5 +72,6 @@ class Recommender:
                         self.associations_dict[id2] = {}
                     if id1 not in self.associations_dict[id2]:
                         self.associations_dict[id2][id1] = 0
+
                     self.associations_dict[id2][id1] += 1
 
